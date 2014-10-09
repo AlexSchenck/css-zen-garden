@@ -23,6 +23,14 @@ p {
 	margin-top: 0; 
 	text-align: center;
 	}
+p::first-line {
+	color: red;
+	font-size: 5em;
+}
+p::before {
+	content: "*New*";
+	color: blue;
+}
 h3 { 
 	font: italic normal 1.4em georgia, sans-serif;
 	letter-spacing: 1px; 
